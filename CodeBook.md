@@ -1,7 +1,7 @@
 # Variables
 The following variables are initially used for the analysis:
 
-tBodyAcc-XYZ
+tBodyAcc-XYZ__
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
