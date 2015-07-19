@@ -24,7 +24,7 @@ tBodyAccJerkMean <br />
 tBodyGyroMean <br />
 tBodyGyroJerkMean <br />
 
-Note that XYZ represents the X, Y, and Z coordinates respectively.  Each of the variables shown above has the mean ( mean() ) and the standard deviation ( std() ) values
+Note that XYZ represents the X, Y, and Z coordinates respectively.  Each of the variables shown above has the mean() and std() (standard deviation) values
 
 # Data
 The cleaned dataset is based on the following given text files:  
