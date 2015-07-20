@@ -1,4 +1,7 @@
 # Data Cleaning Procedures
 
-The R script first loads the given text files into 
-R
+The R script first loads files of activity names and variable names into R.  It also loads the training dataset, its activity class labels, and its subject ID numbers into R, along with the testing dataset, its activity class labels, and its subject ID numbers.  For both the training and testing data, the activity class labels, subject ID numbers, and the rest of the data are combined column-wise in that order into a single dataset.  Then, the variable names are inserted as column names for both training and testing datasets.  Afterwards, the activity names are merged with the training and testing datasets by their activity class labels.  After retrieving the activity names into the datasets, the activity class labels are removed.
+
+Next, the training and testing datasets are combined row-wise into a single large dataset.  The dataset is sorted based on the activity names and then by the subject ID numbers.  Then, it is truncated so it contains only the mean and standard deviation values of all variables as its columns.  
+
+Afterwards, the mean values of the remaining columns are obtained after aggregating dataset by the activity names and the subject ID numbers.  That way, each row represents the mean values for a unique activity name and subject ID number combination for all columns.  At the end, the cleaned dataset is created as a text file in R's working directory.
