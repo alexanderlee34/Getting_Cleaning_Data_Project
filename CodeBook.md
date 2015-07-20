@@ -51,4 +51,4 @@ Also, there are a total of 30 different subjects, whose indices range from 1 to 
 
 # Transformations
 
-After merging the training and testing data together into one large dataset, the dataset is sorted based on the names of the activities and then by the numerical values of subject ID's.  Then, the dataset is reduced column-wise to the mean and standard deviation values of all variables.  Afterwards, the mean of each of all remaining variables (mean and standard deviation) is retrieved by aggregating the dataset by the activity and the subject ID numbers.
+After merging the training and testing data together into one large dataset, the dataset is sorted based on the names of the activities and then by the numerical values of subject ID's.  Then, the dataset is reduced column-wise to the mean and standard deviation values of all variables.  Afterwards, the mean of each of all remaining variables (mean and standard deviation) is retrieved by aggregating the dataset by the activity names and subject ID numbers.
